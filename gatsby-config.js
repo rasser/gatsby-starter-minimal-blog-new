@@ -14,7 +14,7 @@ module.exports = {
     siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@Rbchristiansen`,
   },
   plugins: [
     {
@@ -30,15 +30,19 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `snippets`,
+            slug: `/snippets`,
+          },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/r_bchristiansen`,
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `https://rbchristiansen.com`,
           },
         ],
       },
